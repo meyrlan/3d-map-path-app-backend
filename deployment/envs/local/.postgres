@@ -1,0 +1,4 @@
+POSTGRES_MULTIPLE_DATABASES=traccar_postgres,web_postgres
+POSTGRES_USER=django
+POSTGRES_PASSWORD=postgres
+POSTGRES_HOST=db

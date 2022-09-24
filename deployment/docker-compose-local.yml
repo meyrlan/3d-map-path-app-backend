@@ -1,0 +1,59 @@
+version: "3"
+
+services:
+  web:
+    build:
+      context: ../.
+      dockerfile: ./deployment/docker/django/Dockerfile
+    image: gokid_django
+    command: python manage.py runserver 0.0.0.0:8000
+    depends_on:
+      - postgres
+    env_file:
+      - ./envs/local/.django
+    volumes:
+      - static_volume:/code/staticfiles
+      - media_volume:/code/media
+    expose:
+      - 8000
+
+  postgres:
+    build:
+      context: ../.
+      dockerfile: ./deployment/docker/postgres/Dockerfile
+    image: gokid_postgres
+    env_file:
+      - ./envs/local/.postgres
+    volumes:
+      - local_postgres_data:/var/lib/postgresql/data
+
+  nginx:
+    build:
+      context: ../.
+      dockerfile: ./deployment/docker/nginx/Dockerfile
+    image: gokid_nginx
+    ports:
+      - 80:80
+    volumes:
+      - static_volume:/code/staticfiles
+      - media_volume:/code/media
+    depends_on:
+      - web
+
+  metabase:
+    image: metabase/metabase
+    expose:
+      - 3000
+    volumes:
+      - metabase_data:/metabase-data
+    env_file:
+      - ./envs/local/.metabase
+    depends_on:
+      - postgres
+
+
+volumes:
+  static_volume:
+  media_volume:
+  local_postgres_data:
+  metabase_data:

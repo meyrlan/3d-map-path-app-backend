@@ -1,0 +1,2465 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+msgid "Object"
+msgstr "Объект"
+
+msgid "Administration"
+msgstr "Администрация"
+
+msgid "We've sent a code to your email. Please, enter it below."
+msgstr "Мы отправили код на Вашу почту. Пожалуйста, введите его сюда."
+
+msgid "The message has not been delivered to {}. Please, choose another email address or try later."
+msgstr "Сообщение не было доставлено по адресу {}. Пожалуйста, используйте другой email или попробуйте позже."
+
+msgid "UvU activation code"
+msgstr "Код активации UvU"
+
+msgid "The code you've entered is invalid."
+msgstr "Введенный Вами код неверен."
+
+msgid "You have to provide city_id on first request"
+msgstr "Вы должны отправить city_id при первом запросе"
+
+msgid "Unknown status"
+msgstr "Неизвестный статус"
+
+msgid "You can't downgrade stop status"
+msgstr "Вы не можете вернуть статус остановки на предыдущее состояние"
+
+msgid "Duplicated ids sent"
+msgstr "Одинаковые ID отправлены"
+
+msgid "Some ids doesn't exist or they belong to a different date"
+msgstr "Некоторые ID не существуют или они принадлежат другой дате"
+
+msgid "You can not book more than one route a day"
+msgstr "Вы не можете бронировать более одного маршрута в день"
+
+msgid "Query parameter `date` is required"
+msgstr "Параметр 'дата' является обязательным"
+
+msgid "Passengers"
+msgstr "Пассажиры"
+
+msgid "Query parameter {} is required"
+msgstr "Параметр {} является обязательным"
+
+msgid "User"
+msgstr "Юзер"
+
+msgid "Related Object Link"
+msgstr "Ссылка на связанный объект"
+
+msgid "Object Link"
+msgstr "Ссылка на объект"
+
+msgid "Audit log"
+msgstr "Журнал аудита"
+
+msgid "Addition"
+msgstr "Добавление"
+
+msgid "Change"
+msgstr "Изменение"
+
+msgid "Deletion"
+msgstr "Удаление"
+
+msgid "Content Type"
+msgstr "Тип содержимого"
+
+msgid "Related Content Type"
+msgstr "Тип содержимого связанного объекта"
+
+msgid "Action"
+msgstr "Действие"
+
+msgid "Action Time"
+msgstr "Время действия"
+
+msgid "Object id"
+msgstr "id объекта"
+
+msgid "Related Object id"
+msgstr "id связанного объекта"
+
+msgid "Object Representation"
+msgstr "Представление объекта"
+
+msgid "Changes"
+msgstr "Изменения"
+
+#, python-format
+msgid "Added “%(object)s”."
+msgstr "Добавлен “%(object)s”."
+
+#, python-format
+msgid "Changed “%(object)s”"
+msgstr "Изменен “%(object)s”"
+
+#, python-format
+msgid "Deleted “%(object)s.”"
+msgstr "Удален “%(object)s.”"
+
+#, python-format
+msgid "Logged “%(object)s.”"
+msgstr "Зарегистрирован “%(object)s.”"
+
+msgid "Log entry"
+msgstr "Запись в журнале"
+
+msgid "Log entries"
+msgstr "Записи в журнале"
+
+msgid "Send Test Client Push Notification"
+msgstr "Отправить тестовое клиентское пуш уведомление"
+
+msgid "Can't send test messages to users that are not in a fake city: {}"
+msgstr "Нельзя отправлять тестовое сообщение пользователям не из фейковых городов: {}"
+
+msgid "Send Test Driver Push Notification"
+msgstr "Отправить тестовое драйверское пуш уведомление"
+
+msgid "Add QR-Code to User"
+msgstr "Добавить QR код пользователю"
+
+msgid "Customer"
+msgstr "Клиент"
+
+msgid "Authentication"
+msgstr "Аутентификация"
+
+msgid "Male"
+msgstr "Мужской"
+
+msgid "Female"
+msgstr "Женский"
+
+msgid "username"
+msgstr "имя пользователя"
+
+msgid "Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only."
+msgstr "Обязательное поле. Не более 150 символов. Только буквы, цифры и символы @/./+/-/_."
+
+msgid "A user with that username already exists."
+msgstr "Пользователь с таким именем уже существует."
+
+msgid "email address"
+msgstr "адрес электронной почты"
+
+msgid "Owned Customer"
+msgstr "Принадлежащий клиент"
+
+msgid "Used Customer"
+msgstr "Используемый клиент"
+
+msgid "Sex"
+msgstr "Пол"
+
+msgid "Phone Number"
+msgstr "Номер Телефона"
+
+msgid "Birth Date"
+msgstr "Дата рождения"
+
+msgid "School Grade"
+msgstr "Школьный класс"
+
+msgid "QRCode"
+msgstr "QR Код"
+
+msgid "Photo"
+msgstr "Фотография"
+
+msgid "The provided image is too small, it needs to be at least 200x200"
+msgstr "Предоставленное изображение слишком маленькое, оно должно быть не менее 200х200"
+
+msgid "Users"
+msgstr "Юзеры"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Code"
+msgstr "Код"
+
+msgid "Created At"
+msgstr "Создано в"
+
+msgid "Used At"
+msgstr "Использован в"
+
+msgid "Email OTP Device"
+msgstr "Email одноразовый пароль"
+
+msgid "Email OTP Devices"
+msgstr "Email одноразовые пароли"
+
+msgid "Client"
+msgstr "Клиент"
+
+msgid "Driver"
+msgstr "Водитель"
+
+msgid "Mobile App"
+msgstr "Мобильное приложение"
+
+msgid "Device Type"
+msgstr "Тип устройства"
+
+msgid "Device Model"
+msgstr "Модель устройства"
+
+msgid "OS version"
+msgstr "Версия ОС"
+
+msgid "App version"
+msgstr "Версия приложения"
+
+msgid "Device"
+msgstr "Устройство"
+
+msgid "Devices"
+msgstr "Устройства"
+
+msgid "FCM device"
+msgstr "FCM Устройство"
+
+msgid "FCM devices"
+msgstr "FCM Устройства"
+
+msgid "The version should be three numbers separated by dots, like 1.1.1"
+msgstr "Версия приложения должна состоять из трех чисел, разделенных точками, например, 1.1.1"
+
+msgid "Hard"
+msgstr "Hard"
+
+msgid "Soft"
+msgstr "Soft"
+
+msgid "Minimal App Version"
+msgstr "Минимальная версия приложения"
+
+msgid "Minimal App Versions"
+msgstr "Минимальные версии приложений"
+
+msgid "History of changes"
+msgstr "История изменений"
+
+msgid "History"
+msgstr "История"
+
+msgid "At least one item is required."
+msgstr "Хотя бы один элемент должен присутствовать"
+
+#. Translators: Model verbose name and instance representation,
+#. suitable to be an item in a list.
+#, python-format
+msgid "%(class_name)s %(instance)s"
+msgstr "%(class_name)s %(instance)s"
+
+msgid "and"
+msgstr "и"
+
+#, python-format
+msgid "Deleting %(class_name)s %(instance)s would require deleting the following protected related objects: %(related_objects)s"
+msgstr "Удаление объекта %(instance)s типа %(class_name)s будет требовать удаления следующих связанных объектов: %(related_objects)s"
+
+msgid "Please upload a valid file."
+msgstr "Пожалуйста, загрузите верный файл"
+
+msgid "The type of the file couldn't be determined."
+msgstr "Тип файла не может быть определен"
+
+msgid "Process Selected Planning Lists"
+msgstr "Финализировать выбранные запланированные списки"
+
+#, python-brace-format
+msgid "There are unmatched trips for PL {pl.id}: {unmatched_trips}!"
+msgstr "Есть поездки без соответствия для PL {pl.id}: {unmatched_trips}!"
+
+msgid "Finalize Selected Planning Lists"
+msgstr "Финализировать выбранные запланированные списки"
+
+msgid "Export Manual Routing Spreadsheet"
+msgstr "Экспортировать таблицу данных ручной маршрутизации"
+
+msgid "Refresh Status"
+msgstr "Обновить статус"
+
+msgid "Connect to Traccar"
+msgstr "Подключить к Traccar"
+
+msgid "Export Spreadsheet"
+msgstr "Экспортировать таблицу"
+
+msgid "There are no planned stops for the route"
+msgstr "На маршруте нет запланированных остановок"
+
+msgid "Export Yandex Routing Data Spreadsheet"
+msgstr "Экспортировать таблицу данных Яндекс маршрутизации"
+
+msgid "Yandex routing data spreadsheet can be obtained only for a single date"
+msgstr "Электронная таблица данных маршрутизации Яндекса может быть получена только для одной даты"
+
+msgid "Export Relog Routing Data Spreadsheet"
+msgstr "Экспортировать таблицу данных Relog маршрутизации"
+
+msgid "Relog routing data spreadsheet can be obtained only for a single date"
+msgstr "Электронная таблица данных маршрутизации Relog может быть получена только для одной даты"
+
+msgid "Export Routes for Tilda"
+msgstr "Экспортировать маршруты для Тильды"
+
+msgid "Route {} doesn't have any stop"
+msgstr "Маршрут {} не имеет ни одной остановки"
+
+msgid "There are no planned stops for {}"
+msgstr "Нет запланированных остановок для {}"
+
+msgid "{} has been successfully sent to ReLog."
+msgstr "{} успешно отправлен в ReLog."
+
+msgid "{} sending to ReLog has failed."
+msgstr "Не удалось выполнить отправку {} в ReLog"
+
+msgid "Send to ReLog"
+msgstr "Отправить в ReLog"
+
+msgid "Can't send to ReLog not planned trips: {}"
+msgstr "Не разрешается отправлять в ReLog незапланированные позедки: {}"
+
+msgid "Sync with ReLog"
+msgstr "Синхронизировать с ReLog"
+
+msgid "Route {} sending to ReLog has failed. Failed trips: {}"
+msgstr "Не удалось выполнить отправку маршрута {} в ReLog. Произошли ошибки в поездках: {}"
+
+msgid "Route {} has been successfully synced with ReLog."
+msgstr "Маршрут {} успешно синхронизирован с ReLog."
+
+msgid "Export Sub-Routes Spreadsheet"
+msgstr "Экспортировать таблицу под-маршрутов"
+
+msgid "Sub Routes spreadsheet can be obtained only for a single date"
+msgstr "Электронная таблица данных под-маршрутов может быть получена только для одной даты"
+
+msgid "Trip with id {} doesn't have a driver_price"
+msgstr "Поездка с идентификатором {} не имеет driver_price"
+
+msgid "Fake Routing"
+msgstr "Фейковая маршрутизация"
+
+msgid "None of the trips selected for fake routing"
+msgstr "Ни одна поездка не выбрана для фейковой маршрутизации"
+
+msgid "Can't execute fake routing for real trips: {}"
+msgstr "Не разрешается выполнять фейковую маршрутизацию для реальных поездок: {}"
+
+msgid "Can't execute fake routing for trips with multiple cities: {}"
+msgstr "Не разрешается выполнять фейковую маршрутизацию для поездок с разными городами: {}"
+
+msgid "Can't execute fake routing for trips with multiple dates: {}"
+msgstr "Не разрешается выполнять фейковую маршрутизацию для поездок с разными датами: {}"
+
+msgid "Publish Selected Routes"
+msgstr "Опубликовать выбранные маршруты"
+
+msgid "Remove sub-routes from routes"
+msgstr "Отвязать подмаршруты с маршрутов"
+
+msgid "Make payment refunds"
+msgstr "Сделать возврат платежей"
+
+msgid "Remove customers"
+msgstr "Удалить клиентов"
+
+msgid "Customer {} has trips, you can't delete him."
+msgstr "У клиента есть поездки, вы не можете его удалить."
+
+msgid "Create auction"
+msgstr "Создать аукцион"
+
+msgid "Trip {} doesn't have stops, you can't create auction for it."
+msgstr "У трипа нет стопов, вы не можете аукцион для него."
+
+msgid "Relog"
+msgstr "Relog"
+
+msgid "Yandex"
+msgstr "Яндекс"
+
+msgid "Type your address ..."
+msgstr "Напечатайте адрес ..."
+
+msgid "Pickup Stop Estimated Arrival Time"
+msgstr "Приблизительное время прибытия к остановке забора"
+
+msgid "Pickup Stop Estimated Departure Time"
+msgstr "Приблизительное время выезда с остановки забора"
+
+msgid "Delivery Stop Estimated Arrival Time"
+msgstr "Приблизительное время прибытия к остановке доставки"
+
+msgid "Delivery Stop Estimated Departure Time"
+msgstr "Приблизительное время выезда с остановки доставки"
+
+msgid "You can't create trips with status Pending or Planned for past dates."
+msgstr "Вы не можете создать поездки в статусе ожидает или запланирована для прошедших дат."
+
+msgid "You are allowed to create only Pending trips if neither driver nor planning list are specified."
+msgstr "Вы можете создать поездки лишь в статусе ожидания, если не указаны ни запланированный список, ни водитель."
+
+msgid "You are not allowed to create trip with Pending status for this case."
+msgstr "Не разрешено создавать поездки в статусе ожидания в данном случае."
+
+msgid "Planning List date must be equal to trip date."
+msgstr "Дата запланированного списка должна быть равна дате поездки."
+
+msgid "You can't specify both pickup and delivery times."
+msgstr "Нельзя указывать одновременно время забора и доставки."
+
+msgid "Can't specify both driver and planning list on creation."
+msgstr "Нельзя одновременно указывать водителя и запланированный список при создании поездки."
+
+msgid "You should specify desired pickup or delivery times if none of the drivers is chosen."
+msgstr "Вы должны указать желаемое время отправления или прибытия, если не выбран водитель."
+
+msgid "You should specify arrival and departure times for all pickup and delivery stops if a driver is chosen."
+msgstr "Вы должны указать время прибытия и отправления для остановок забора и доставки, если выбран водитель."
+
+msgid "Estimated times have to be in order."
+msgstr "Времена должны идти по порядку."
+
+msgid "You can't link the trip to a driver because it is already linked to a planning list."
+msgstr "Вы не можете связать поездку с водителем, потому что она уже связана с запланированным списком."
+
+msgid "You can't link the trip to a planning list because it is already linked to a driver."
+msgstr "Вы не можете связать поездку с запланированным списком, потому что она уже связана с водителем."
+
+msgid "You can't remove the linked planning list."
+msgstr "Вы не можете удалить связанный запланированный список."
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Cluster has a different city!"
+msgstr "Кластер из другого города!"
+
+msgid "Spreadsheet"
+msgstr "Таблица"
+
+msgid "First name"
+msgstr "Имя"
+
+msgid "Last name"
+msgstr "Фамилия"
+
+msgid "Name"
+msgstr "Название"
+
+msgid "Number Plate"
+msgstr "Номер машины"
+
+msgid "Color"
+msgstr "Цвет"
+
+msgid "Year of Issue"
+msgstr "Год выпуска"
+
+msgid "Capacity"
+msgstr "Вместимость"
+
+msgid "Another driver with this email already exists in the DB."
+msgstr "Другой водитель с этим email уже существует в базе данных."
+
+msgid "Active drivers must have all car fields."
+msgstr "Активные водители должны иметь все поля машины."
+
+msgid "Trip"
+msgstr "Поездка"
+
+msgid "Stop"
+msgstr "Остановка"
+
+msgid "Member (Child)"
+msgstr "Член (Ребенок)"
+
+msgid "Members (Children)"
+msgstr "Члены (Дети)"
+
+msgid "Owner (Parent)"
+msgstr "Владелец (Родитель)"
+
+msgid "Owners (Parents)"
+msgstr "Владельцы (Родители)"
+
+msgid "Customer URL"
+msgstr "URL на клиента"
+
+msgid "Trip Address"
+msgstr "Адрес поездки"
+
+msgid "Trip Members"
+msgstr "Члены поездки"
+
+msgid "Number of children in the car"
+msgstr "Количество детей в машине"
+
+msgid "Split To Next Sub Route"
+msgstr "Разделить на следующий под-маршрут"
+
+msgid "SubRoute {} has been split into two sub-routes: {} and {}"
+msgstr "Под-маршрут {} был разделен на два под-маршрута: {} и {}"
+
+msgid "Price"
+msgstr "Цена"
+
+msgid "Start Time"
+msgstr "Время начала"
+
+msgid "End Time"
+msgstr "Время окончания"
+
+msgid "Start Address"
+msgstr "Начальный адрес"
+
+msgid "End Address"
+msgstr "Конечный адрес"
+
+msgid "City"
+msgstr "Город"
+
+msgid "Partner"
+msgstr "Партнер"
+
+msgid "Customer Count"
+msgstr "Количество клиентов"
+
+msgid "Active Customer Count"
+msgstr "Количество активных клиентов"
+
+msgid "Tracking URL"
+msgstr "Трекинг URL"
+
+msgid "Schools page"
+msgstr "Школы"
+
+msgid "Has Active Schedules"
+msgstr "Имеет активные расписания"
+
+msgid "Trips page"
+msgstr "Поездки"
+
+msgid "Payments page"
+msgstr "Платежи"
+
+msgid "Owned Promocode"
+msgstr "Собственный промокод"
+
+msgid "Pending Trips"
+msgstr "Ожидаемые поездки"
+
+msgid "Planned Trips"
+msgstr "Запланированные поездки"
+
+msgid "Routed Trip Count"
+msgstr "Количество маршрутизированных поездок"
+
+msgid "Cluster"
+msgstr "Кластер"
+
+msgid "Linked to a planning list"
+msgstr "Привязка к запланированному списку"
+
+msgid "Linked to driver"
+msgstr "Привязка к водителю"
+
+msgid "Members"
+msgstr "Члены"
+
+msgid "Timing"
+msgstr "Время"
+
+msgid "Cancelled by"
+msgstr "Отменена по причине"
+
+msgid "Stop Count"
+msgstr "Кол-во остановок"
+
+msgid "Start estimated time"
+msgstr "Расчетное время начала"
+
+msgid "Finish estimated time"
+msgstr "Расчетное время окончания"
+
+msgid "Members count"
+msgstr "Количество участников"
+
+msgid "Client Price"
+msgstr "Цена клиента"
+
+msgid "Margin"
+msgstr "Маржа"
+
+msgid "Is synced with ReLog"
+msgstr "Синхронизирован с ReLog"
+
+msgid "Is published"
+msgstr "Опубликован"
+
+msgid "Duration (hours)"
+msgstr "Продолжительность (часы)"
+
+msgid "Car"
+msgstr "Машина"
+
+msgid "Identification Card Photo Thumbnail"
+msgstr "Фото удостверения личности (обратная сторона) (Миниатюра)"
+
+msgid "Identification Card Photo (back) Thumbnail"
+msgstr "Фото удостверения личности (обратная сторона) (Миниатюра)"
+
+msgid "Driving License photo Thumbnail"
+msgstr "Фото водительских прав (обратная сторона) (Миниатюра)"
+
+msgid "Driving License photo (back) Thumbnail"
+msgstr "Фото водительских прав (обратная сторона) (Миниатюра)"
+
+msgid "Technical Passport photo Thumbnail"
+msgstr "Фото тех. паспорта (обратная сторона) (Миниатюра)"
+
+msgid "Technical Passport photo (back) Thumbnail"
+msgstr "Фото тех. паспорта (обратная сторона) (Миниатюра)"
+
+msgid "Photo Thumbnail"
+msgstr "Миниатюра фотографии"
+
+msgid "Home Coordinates"
+msgstr "Координаты дома"
+
+msgid "Car Name"
+msgstr "Наименование машины"
+
+msgid "Email To Answer"
+msgstr "Email для ответа"
+
+msgid "All"
+msgstr "Все"
+
+msgid "Empty"
+msgstr "Пусто"
+
+msgid "Not empty"
+msgstr "Не пусто"
+
+msgid "Has Phone Number"
+msgstr "Имеет номер телефона"
+
+msgid "Earnings page"
+msgstr "Страница заработков"
+
+msgid "Has Payout"
+msgstr "Имеет выплату"
+
+msgid "Has Error"
+msgstr "Ошибка"
+
+msgid "Has Applied Drivers"
+msgstr "Есть участвующие водители"
+
+msgid "Selected Driver"
+msgstr "Выбранный водитель"
+
+msgid "Pickup Address"
+msgstr "Адрес забора"
+
+msgid "Desired Pickup Time"
+msgstr "Ожидаемое время забора"
+
+msgid "Applied Drivers"
+msgstr "Участвующие Водители"
+
+msgid "Cancel Auctions"
+msgstr "Отменить аукционы"
+
+msgid "Driver Count"
+msgstr "Количество Водителей"
+
+msgid "Home address adding page"
+msgstr "Страница добавления домашнего адреса"
+
+msgid "There are no sub-routes in the provided file!"
+msgstr "В загруженном файле нет под-маршрутов"
+
+msgid "SubRoute {} is empty!"
+msgstr "Под-маршрут {} пустой!"
+
+msgid "Planning List corresponding to {} and cluster {} is not found"
+msgstr "Запланированный список поездок для даты {} и кластера {} не найден"
+
+msgid "Not all Planning Lists are finalized for {}!"
+msgstr "Не все запланированные списки финализированы для {}!"
+
+msgid "SubRoute {} has broken trips: {}"
+msgstr "Под-маршрут {} имеет сломанные поездки: {}"
+
+msgid "SubRoute {} intersects with route {}, common trip ids: {}"
+msgstr "Под-маршрут {} пересекается с маршрутом {}, общие поездки: {}"
+
+msgid "SubRoute {} is conflicting with sub-routes: {}"
+msgstr "Под-маршрут {} конфликтует с маршрутом: {}"
+
+msgid "Trips in workbook and Planning List don't match. Missing from workbook: {}, extra in workbook: {}"
+msgstr "Поездки в файле и запланированном списке не совпадают. Недостающие поездки в файле: {}, лишние поездки в файле: {}"
+
+msgid "SubRoute {}, trip {} is too long. Allowed {}, real duration: {}"
+msgstr "Под-маршрут {}, поездка {} слишком долгая. Допустимо: {}, по факту: {}"
+
+msgid "There are no routes in the provided file! Are you sure that you uploaded the file with routes from the Yandex Routing service?"
+msgstr "В предоставленном файле нет маршрутов! Вы уверены, что загрузили файл с маршрутами из сервиса маршрутизации Яндекса?"
+
+msgid "Planning List corresponding to {} is not found"
+msgstr "Запланированный список поездок для даты {} не найден"
+
+msgid "SubRoute with name {} is conflicting with sub-route: {}. This means that a route already was created in the DB and its stops conflicting with the current one. You need either remove that route from the DB before file uploading or you need to remove the current route from the file."
+msgstr "Под-маршрут {} конфликтует с под-маршрутом: {}. This means that a route already was created in the DB and its stops conflicting with the current one. You need either remove that route from the DB before file uploading or you need to remove the current route from the file."
+
+msgid "Too many empty rows. Starts at line {} in the provided file. You need to make between routes be only one empty row."
+msgstr "Слишком много пустых рядов. Начинается со строки {} в предоставленном файле. Вам нужно сделать так, чтобы между маршрутами была только одна пустая строка."
+
+msgid "Broken routes at {}. Make sure that the file doesn't contain a row with \"Не может быть доставлен\" value."
+msgstr "Сломанные маршруты в {}. Убедитесь, что файл не содержит строки со значением \"Не может быть доставлен\"."
+
+msgid "There is no sub-routes data provided!"
+msgstr "Данные о под-маршрутах не приведены!"
+
+msgid "Broken sub-routes: "
+msgstr "Сломанные под-маршруты: "
+
+msgid " Sub-routes should have either the following format '#' (ordering_id only) for the first sub-routes or '#.#' (ordering_id, sub_ordering_id) for others."
+msgstr " Подмаршруты должны иметь либо следующий формат '#' (только ordering_id) для первых подмаршрутов, либо '#.#' (ordering_id, sub_ordering_id) для других."
+
+msgid "There are duplicated sub-routes in the string: "
+msgstr "В строке есть дублированные подмаршруты: "
+
+msgid "SubRoutes in the string and in the Database don't match."
+msgstr "Под-маршруты в строке и в базе данных не совпадают."
+
+msgid " Missing from the string: "
+msgstr " Отсутствуют в строке: "
+
+msgid " Extra in the string: "
+msgstr " Лишние в строке: "
+
+msgid "These sub-Routes don't have stops: {}"
+msgstr "Эти подмаршруты не имеют остановок: {}"
+
+msgid "Planning List corresponding to city {}, cluster {} and date {} is not found"
+msgstr "Запланированный список поездок для города {}, кластера {} и даты {} не найден"
+
+msgid "Planning lists should be finalized first"
+msgstr "Запланированные списки должны быть финализированы в начале"
+
+msgid "Trips from sub-routes and from Planning Lists don't match. Missing from sub-routes: {}, extra in sub-routes: {}"
+msgstr "Поездки у под-маршрутов и в запланированном списке не совпадают. Недостающие поездки у под-маршрутов: {}, лишние поездки у под-маршрутов: {}"
+
+msgid "These routes already created for the provided trips: {}. You should remove existing sub-routes to create new ones. Otherwise, you are trying to create duplicates."
+msgstr "Эти маршруты уже созданы для предоставленных поездок: {}. Вы должны удалить существующие подмаршруты, чтобы создать новые. В противном случае вы пытаетесь создать дубликаты."
+
+msgid "Core"
+msgstr "Ядро"
+
+msgid "School"
+msgstr "Школа"
+
+msgid "Verified"
+msgstr "Проверен"
+
+msgid "Address"
+msgstr "Адрес"
+
+msgid "Latitude"
+msgstr "Широта"
+
+msgid "Longitude"
+msgstr "Долгота"
+
+msgid "Place"
+msgstr "Место"
+
+msgid "Places"
+msgstr "Места"
+
+msgid "Centre"
+msgstr "Центр"
+
+msgid "Ordering"
+msgstr "Порядок"
+
+msgid "Address Category"
+msgstr "Категория адреса"
+
+msgid "Address Categories"
+msgstr "Категории адресов"
+
+msgid "Category"
+msgstr "Категория"
+
+msgid "Enterance"
+msgstr "Подъезд"
+
+msgid "Comment"
+msgstr "Комментарий"
+
+msgid "Unallowed combination: place is specified, but it is not a centre"
+msgstr "Невозможная комбинация: место указано, однако центр не выбран"
+
+msgid "Addresses"
+msgstr "Адреса"
+
+msgid "Pending"
+msgstr "В ожидании"
+
+msgid "Completed"
+msgstr "Завершена"
+
+msgid "Cancelled"
+msgstr "Отменена"
+
+msgid "Notified Drivers"
+msgstr "Оповещенные Водители"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Fast"
+msgstr "Быстрый"
+
+msgid "Attention Needed"
+msgstr "Требует внимания"
+
+msgid "Delay"
+msgstr "Задержка"
+
+msgid "Finished At"
+msgstr "Закончен в"
+
+msgid "Can't create an auction with trip without stops"
+msgstr "Нельзя создать аукцион с поездкой без остановок"
+
+msgid "You can set only a driver from applied drivers list."
+msgstr "Вы можете выбрать драйвера только из списка участвующих в аукционе."
+
+msgid "Auction"
+msgstr "Аукцион"
+
+msgid "Auctions"
+msgstr "Аукционы"
+
+msgid "Notified Auction Driver"
+msgstr "Оповещенный аукционный водитель"
+
+msgid "Notified Auction Drivers"
+msgstr "Оповещенные аукционные водители"
+
+msgid "Automatically Eligible"
+msgstr "Автоматически подходящий"
+
+msgid "Explanation"
+msgstr "Объяснение"
+
+msgid "Applied Auction Driver"
+msgstr "Подавшийся аукционный водитель"
+
+msgid "Applied Auction Drivers"
+msgstr "Подавшиеся аукционные водители"
+
+msgid "Simple"
+msgstr "Простой"
+
+msgid "With User Promocode"
+msgstr "С пользовательским промокодом"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Active"
+msgstr "Активный"
+
+msgid "Title"
+msgstr "Заголовок"
+
+msgid "Body"
+msgstr "Тело"
+
+msgid "Background Image"
+msgstr "Фоновая картинка"
+
+msgid "Banner"
+msgstr "Баннер"
+
+msgid "Banners"
+msgstr "Баннеры"
+
+msgid "Monday"
+msgstr "Понедельник"
+
+msgid "Tuesday"
+msgstr "Вторник"
+
+msgid "Wednesday"
+msgstr "Среда"
+
+msgid "Thursday"
+msgstr "Четверг"
+
+msgid "Friday"
+msgstr "Пятница"
+
+msgid "Saturday"
+msgstr "Суббота"
+
+msgid "Sunday"
+msgstr "Воскресенье"
+
+msgid "Schedules"
+msgstr "Расписания"
+
+msgid "Weekday"
+msgstr "День недели"
+
+msgid "Bucket"
+msgstr "Ведро"
+
+msgid "Buckets"
+msgstr "Ведра"
+
+msgid "Cancellation"
+msgstr "Отмена поездки"
+
+msgid "Cancellations"
+msgstr "Отмены поездок"
+
+msgid "Approved"
+msgstr "Подтверждено"
+
+msgid "Rejected"
+msgstr "Отказано"
+
+msgid "State"
+msgstr "Состояние"
+
+msgid "Reason"
+msgstr "Причина"
+
+msgid "Cancellation Excuse"
+msgstr "Причина отмены"
+
+msgid "Cancellation Excuses"
+msgstr "Причины отмен"
+
+msgid "Alpha"
+msgstr "Альфа"
+
+msgid "Beta"
+msgstr "Бета"
+
+msgid "Production"
+msgstr "Продукция"
+
+msgid "Fake"
+msgstr "Фейковый"
+
+msgid "Stage"
+msgstr "Стадия"
+
+msgid "Relog Integration"
+msgstr "Relog интеграция"
+
+msgid "Dispatcher Phone"
+msgstr "Телефон диспетчера"
+
+msgid "Sales Phone"
+msgstr "Телефон продавца"
+
+msgid "Trip Additional Data Delay"
+msgstr "Задержка перед показом дополнительной информации о поездке"
+
+msgid "Delay before the trip after which additional data is shown"
+msgstr "Задержка перед поездкой, после которой показываются дополнительные данные"
+
+msgid "Auction Publishing Delay"
+msgstr "Задержка перед публикацией аукциона"
+
+msgid "If a trip is created in advance we will wait until this time before the begging of the trip and only then publish it."
+msgstr "Если поездка создается заранее, мы подождем и опубликуем аукцион лишь за это время до начала поездки."
+
+msgid "Auction Latest Position Delay"
+msgstr "Задержка до последней позиции"
+
+msgid "Drivers with latest coordinate submitted more than this time ago won't be eligible for auctions."
+msgstr "Водители, последняя координата которых старее чем это время не подойдут на аукцион."
+
+msgid "Auction Seach Time"
+msgstr "Время поиска аукциона"
+
+msgid "How much time we will try to determine auction winner before switching it to manual."
+msgstr "Сколько времени мы подождем для определения победителя в аукционе прежде чем переключим его в мануальный режим."
+
+msgid "Auction Select Winner Time"
+msgstr "Время выбора победителя аукциона"
+
+msgid "Once an eligible driver applies to the auction, we will wait for this time before determining a final winner."
+msgstr "Когда подходящий водитель подастся на аукцион, мы подождем это время прежде чем определим финального победителя."
+
+msgid "South-West Latitude"
+msgstr "Юго-Западная широта"
+
+msgid "South-West Longitude"
+msgstr "Юго-Западная долгота"
+
+msgid "North-East Latitude"
+msgstr "Северо-Восточная широта"
+
+msgid "North-East Longitude"
+msgstr "Северо-Восточная долгота"
+
+msgid "Delivery Area"
+msgstr "Зона развозки"
+
+msgid "Admin Traccar User"
+msgstr "Traccar админ"
+
+msgid "Traccar Session Cookie"
+msgstr "Куки сессии Traccar"
+
+msgid "Time for Trip Review"
+msgstr "Время для отзыва о поездке"
+
+msgid "Time we give to a customer to submit a trip review"
+msgstr "Время, которое мы даем клиенту, чтобы оставить отзыв о поездке"
+
+msgid "Minimum Customer Count to show in City Info"
+msgstr "Минимальное количество клиентов для показа на уровне города"
+
+msgid "Schedules Enabled"
+msgstr "Расписания включены"
+
+msgid "Earliest Scheduled Time"
+msgstr "Cамое раннее запланированное время"
+
+msgid "Latest Scheduled Time"
+msgstr "Cамое позднее запланированное время"
+
+msgid "Earliest Trip Time"
+msgstr "Cамое раннее время поездки"
+
+msgid "Latest Trip Time"
+msgstr "Cамое позднее время поездки"
+
+msgid "Time Difference Between Deleted And New Schedules"
+msgstr "Разница во времени между удаленным и новым расписаниями"
+
+msgid "Pickup or delivery time defference between deleted and new schedules"
+msgstr "Разница во времени (отправления или прибытия) между удаленным и новым расписаниями"
+
+msgid "Distance between deleted and new schedule addresses"
+msgstr "Расстояние между удаленным и новым адрессами"
+
+msgid "Schools Enabled"
+msgstr "Школы включены"
+
+msgid "General Tilda URL"
+msgstr "Общая Tilda ссылка"
+
+msgid "Cities"
+msgstr "Города"
+
+msgid "District"
+msgstr "Район"
+
+msgid "Districts"
+msgstr "Районы"
+
+msgid "Clusters"
+msgstr "Кластеры"
+
+msgid "Sunday_______"
+msgstr "Воскресенье"
+
+msgid "Group"
+msgstr "Группа"
+
+msgid "Individual"
+msgstr "Индивидуальный"
+
+msgid "CRM id"
+msgstr "CRM id"
+
+msgid "Service Level"
+msgstr "Уровень обслуживания"
+
+msgid "Payment Balance"
+msgstr "Платежный баланс"
+
+msgid "Bonus Balance"
+msgstr "Бонусный баланс"
+
+msgid "Free Trips"
+msgstr "Бесплатные поездки"
+
+msgid "Half Price Trips"
+msgstr "Поездки за пол цены"
+
+msgid "Primary Contact From"
+msgstr "Основной контакт из"
+
+msgid "On Demand Eligible"
+msgstr "Имеет право на он-деманд"
+
+msgid "Disabled"
+msgstr "Деактивированный"
+
+msgid "Loyalty User"
+msgstr "Лояльность пользователя"
+
+msgid "Customers"
+msgstr "Клиенты"
+
+msgid "Green"
+msgstr "Зеленый"
+
+msgid "Orange"
+msgstr "Оранжевый"
+
+msgid "Red"
+msgstr "Красный"
+
+msgid "Gold"
+msgstr "Золотой"
+
+msgid "Beginner"
+msgstr "Начинающий"
+
+msgid "Registering"
+msgstr "Регистрирующийся"
+
+msgid "Verifying"
+msgstr "Проверяющийся"
+
+msgid "Traccar"
+msgstr "Traccar"
+
+msgid "TraccarUser"
+msgstr "Traccar пользователь"
+
+msgid "Lead User"
+msgstr "Ведущий пользователь"
+
+msgid "Level"
+msgstr "Уровень"
+
+msgid "Tracking kind"
+msgstr "Трекинг"
+
+msgid "Balance"
+msgstr "Баланс"
+
+msgid "Visible Balance"
+msgstr "Видимый баланс"
+
+msgid "Additional Phone Number"
+msgstr "Дополнительный номер телефона"
+
+msgid "Home Latitude"
+msgstr "Широта"
+
+msgid "Home Longitude"
+msgstr "Долгота"
+
+msgid "Driving Experience"
+msgstr "Стаж вождения"
+
+msgid "IIN"
+msgstr "ИИН"
+
+msgid "Relog Login"
+msgstr "Логин в Релоге"
+
+msgid "Relog Password"
+msgstr "Пароль в Релоге"
+
+msgid "Bank Card number"
+msgstr "Номер банковской карты"
+
+msgid "Has seat belts"
+msgstr "Есть ремни безопасности"
+
+msgid "Has flag"
+msgstr "Есть флажок"
+
+msgid "Accepting On Demand Trips"
+msgstr "Принимать ондеманд поездки"
+
+msgid "On Demand Priority"
+msgstr "Приоритет в он-деманде"
+
+msgid "On Demand Priority should be from 0 to 10"
+msgstr "Приоритет в он-деманде должен быть от 0 до 10."
+
+msgid "Identification Card Photo (both sides)"
+msgstr "Фото удостверения личности (обе стороны)"
+
+msgid "Identification Card Photo"
+msgstr "Фото удостверения личности"
+
+msgid "Identification Card Photo (back)"
+msgstr "Фото удостверения личности (обратная сторона)"
+
+msgid "Driver License Photo (both sides)"
+msgstr "Фото водительских прав (обе стороны)"
+
+msgid "Driving License photo"
+msgstr "Фото водительских прав"
+
+msgid "Driving License photo (back)"
+msgstr "Фото водительских прав (обратная сторона)"
+
+msgid "Technical Passport photo (both sides)"
+msgstr "Фото тех. паспорта (обе стороны)"
+
+msgid "Technical Passport photo"
+msgstr "Фото тех. паспорта"
+
+msgid "Technical Passport photo (back)"
+msgstr "Фото тех. паспорта (обратная сторона)"
+
+msgid "Disabled At"
+msgstr "Время деактивации"
+
+msgid "The driver is not connected to traccar."
+msgstr "Водитель не подключен к Traccar."
+
+msgid "On Demand Priority could not be greater than 10."
+msgstr "Приоритет в он-деманде должен быть не больше 10."
+
+msgid "Drivers"
+msgstr "Водители"
+
+msgid "Use the following format: <YYYY>"
+msgstr "Используйте следующий формат: <ГГГГ>"
+
+msgid "Cars"
+msgstr "Машины"
+
+msgid "Question"
+msgstr "Вопрос"
+
+msgid "Answer"
+msgstr "Ответ"
+
+msgid "FAQ"
+msgstr "ЧАВО"
+
+msgid "FAQs"
+msgstr "ЧАВО"
+
+msgid "Feedback"
+msgstr "Отзыв"
+
+msgid "Feedbacks"
+msgstr "Отзывы"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "Memo"
+msgstr "Памятка"
+
+msgid "Memos"
+msgstr "Памятки"
+
+msgid "First 6"
+msgstr "Первые 6 цифр"
+
+msgid "Last 4"
+msgstr "Последние 4 цифры"
+
+msgid "Brand"
+msgstr "Бренд"
+
+msgid "Token"
+msgstr "Токен"
+
+msgid "Bank Card"
+msgstr "Банковская карта"
+
+msgid "Bank Cards"
+msgstr "Банковские карты"
+
+msgid "Administrator"
+msgstr "Администратор"
+
+msgid "Automatic Payment"
+msgstr "Автоматический платеж"
+
+msgid "Trip Payment"
+msgstr "Платеж поездки"
+
+msgid "Trip Client Bonus"
+msgstr "Клиентский бонус поездки"
+
+msgid "Trip Driver Bonus"
+msgstr "Водительский бонус поездки"
+
+msgid "Trip Custom Bonus"
+msgstr "Индивидуальный бонус поездки"
+
+msgid "Activated Promo Code Bonus"
+msgstr "Бонус активированного промокода"
+
+msgid "Shared Promo Code Bonus"
+msgstr "Бонус поделившегося промокодом"
+
+msgid "School Payment"
+msgstr "Платеж за школу"
+
+msgid "Bank Card Linking Payment"
+msgstr "Платеж привязки карты"
+
+msgid "Planning List Processing Payment"
+msgstr "Платеж при обработке запланированных списков"
+
+msgid "On Demand Trip Payment"
+msgstr "Платеж поездки по требованию"
+
+msgid "Processing"
+msgstr "Обрабатывается"
+
+msgid "Successful"
+msgstr "Успешный"
+
+msgid "Error"
+msgstr "Ошибка"
+
+msgid "Refunded"
+msgstr "Возвращен"
+
+msgid "Subscription"
+msgstr "Подписка"
+
+msgid "Payment Trip"
+msgstr "Поездка платежа"
+
+msgid "Client Bonus Trip"
+msgstr "Поездка бонуса клиента"
+
+msgid "Driver Bonus Trip"
+msgstr "Поездка бонуса водителя"
+
+msgid "Custom Bonus Trip"
+msgstr "Поездка индивидуального бонуса"
+
+msgid "Trip Schedules"
+msgstr "Расписания поездок"
+
+msgid "Booking Period"
+msgstr "Период бронирования"
+
+msgid "Planning List"
+msgstr "Запланированный список"
+
+msgid "Start Date For Booked Trips"
+msgstr "Дата начала для забронированных поездок"
+
+msgid "Kind"
+msgstr "Тип"
+
+msgid "Added By"
+msgstr "Добавил"
+
+msgid "Amount"
+msgstr "Сумма"
+
+msgid "Real Amount"
+msgstr "Настоящая сумма"
+
+msgid "Amount without commission."
+msgstr "Сумма без комиссии."
+
+msgid "Error Message"
+msgstr "Сообщение об ошибке"
+
+msgid "Automatic"
+msgstr "Автоматический"
+
+msgid "Bonus"
+msgstr "Бонус"
+
+msgid "Is Temporary"
+msgstr "Временный"
+
+msgid "A flag indicating that the payment will be immediately refunded after a successful notification."
+msgstr "Флажок, указывающий на то, что платеж будет немедленно возвращен после успешного уведомления."
+
+msgid "Pended At"
+msgstr "На рассмотрении с"
+
+msgid "Processed At"
+msgstr "Обрабатано в"
+
+msgid "Succeeded At"
+msgstr "Успешно в"
+
+msgid "Cancelled At"
+msgstr "Отменено в"
+
+msgid "Finished With Error At"
+msgstr "Закончен с ошибкой в"
+
+msgid "Changing Payments is not allowed"
+msgstr "Изменение платежей после создания запрещено!"
+
+msgid "Payment"
+msgstr "Платеж"
+
+msgid "Payments"
+msgstr "Платежи"
+
+msgid "Changing payment refund is not allowed"
+msgstr "Изменение возврата платежа после создания запрещено!"
+
+msgid "Refund"
+msgstr "Возврат"
+
+msgid "Refunds"
+msgstr "Возвраты"
+
+msgid "Bonuses"
+msgstr "Бонусы"
+
+msgid "Cash"
+msgstr "Наличные"
+
+msgid "Manual"
+msgstr "Ручная"
+
+msgid "Paid by"
+msgstr "Выплата от"
+
+msgid "External Id"
+msgstr "Внешний идентификатор"
+
+msgid "Bank Card Number"
+msgstr "Номер банковской карты"
+
+msgid "Full Amount"
+msgstr "Полная сумма"
+
+msgid "Exit Amount"
+msgstr "Выходящая сумма"
+
+msgid "Driver's card number is not specified."
+msgstr "Карта водителя не указана."
+
+#, python-brace-format
+msgid "Exit amount is less than {settings.INTERPAYSYS_MINIMUM_PAYOUT_AMOUNT}"
+msgstr "Выходящая сумма меньше чем {settings.INTERPAYSYS_MINIMUM_PAYOUT_AMOUNT}"
+
+#, python-brace-format
+msgid "Driver's balance is {self.driver.balance}, but you try to withdraw {self.expected_full_amount}!"
+msgstr "Баланс водителя равен {self.driver.balance}, но Вы пытаетесь снять {self.expected_full_amount}!"
+
+msgid "Payout"
+msgstr "Выплата"
+
+msgid "Payouts"
+msgstr "Выплаты"
+
+msgid "On Demand"
+msgstr "По требованию"
+
+msgid "Per Day"
+msgstr "Выплата"
+
+msgid "Per Payout"
+msgstr "Выплата"
+
+msgid "Other"
+msgstr "Другие"
+
+msgid "Added by"
+msgstr "Добавил"
+
+msgid "Updated At"
+msgstr "Обновлен в"
+
+msgid "Visible Earning"
+msgstr "Видимый заработок"
+
+msgid "Visible Earnings"
+msgstr "Видимые заработки"
+
+msgid "Per Trip"
+msgstr "Оплата за поездку"
+
+msgid "Payout Fee Amortization"
+msgstr "Погашение комиссии выплаты"
+
+msgid "Automatic Amount"
+msgstr "Авто расчет суммы"
+
+msgid "You only can create manual and bonus earnings."
+msgstr "Вы можете создавать только manual и bonus заработки."
+
+msgid "Earning"
+msgstr "Заработок"
+
+msgid "Earnings"
+msgstr "Заработки"
+
+msgid "Start Date"
+msgstr "Дата начала"
+
+msgid "End Date"
+msgstr "Дата окончания"
+
+msgid "Start date is greater than end date"
+msgstr "Дата начала больше даты конца"
+
+msgid "Newer booking periods exist: {}"
+msgstr "Более новые периоды бронирования уже существуют: {}"
+
+msgid "Booking Periods"
+msgstr "Периоды бронирования"
+
+msgid "Used Capacity"
+msgstr "Использованная вместимость"
+
+msgid "Start time is greater than end time"
+msgstr "Время начала больше, чем время окончания"
+
+msgid "The date is not between the start date and the end date of the booking period."
+msgstr "Дата не находится между датой начала и датой окончания периода бронирования."
+
+msgid "Queue"
+msgstr "Очередь"
+
+msgid "Queues"
+msgstr "Очереди"
+
+msgid "Processing Finished"
+msgstr "Обработка Закончена"
+
+msgid "Finalized"
+msgstr "Финализирован"
+
+msgid "Planning List Template"
+msgstr "Шаблон запланированного списка"
+
+msgid "Phase"
+msgstr "Фаза"
+
+msgid "The phase can be changed only step by step from Pending to Finalized"
+msgstr "Фаза может быть изменена только шаг за шагом со статуса В ожидании на Финализирован"
+
+msgid "pl_template is from different city!"
+msgstr "pl_template из другого города!"
+
+msgid "pl_template is supported only for clusters!"
+msgstr "pl_template поддерживается только для кластеров!"
+
+msgid "pl_template is from different cluster!"
+msgstr "pl_template из другого кластера!"
+
+msgid "pl_template must be FINALIZED!"
+msgstr "pl_template должен быть финализирован!"
+
+msgid "Date must be greater than pl_template's date!"
+msgstr "Дата должна быть позже даты pl_template!"
+
+#, python-brace-format
+msgid "There are unmatched trips: {unmatched_trips}!"
+msgstr "Есть поездки без соответствия: {unmatched_trips}!"
+
+msgid "You can't create a new planning list for passed dates."
+msgstr "Вы не можете создать новый запланированный список для прошедших дат."
+
+msgid "There are no new trips. You can't create an empty Planning List."
+msgstr "Нет новых поездок. Нельзя создать пустой запланированный список."
+
+msgid "There are time-off days: {', '.join(str(toff) for toff in time_offs)}. You can't create a Planning List for these days."
+msgstr "Имеются выходные дни: {', '.join(str(toff) for toff in time_offs)}. Вы не можете создать запланированный список в эти дни."
+
+msgid "Planning Lists"
+msgstr "Запланированные списки"
+
+msgid "Notification Count"
+msgstr "Колличество уведомлений"
+
+msgid "Push Notification"
+msgstr "Пуш уведомление"
+
+msgid "Push Notifications"
+msgstr "Пуш уведомления"
+
+msgid "API Key"
+msgstr "API ключ"
+
+msgid "Relog Integrations"
+msgstr "Relog интеграции"
+
+msgid "Relog ID"
+msgstr "Relog ID"
+
+msgid "Stop Status"
+msgstr "Статус остановки"
+
+msgid "Relog Status"
+msgstr "Relog статус"
+
+msgid "Relog Statuses"
+msgstr "Relog статусы"
+
+msgid "Rating"
+msgstr "Оценка"
+
+msgid "Admin Comment"
+msgstr "Комментарий админа"
+
+msgid "Trip Review"
+msgstr "Отзыв о поездке"
+
+msgid "Trip Reviews"
+msgstr "Отзывы о поездке"
+
+msgid "Not Published"
+msgstr "Не опубликован"
+
+msgid "Published"
+msgstr "Опубликован"
+
+msgid "Driver Price"
+msgstr "Цена водителя"
+
+msgid "Published At"
+msgstr "Опубликован в"
+
+msgid "Assigned At"
+msgstr "Назначен в"
+
+msgid "Started At"
+msgstr "Начат в"
+
+msgid "Route"
+msgstr "Маршрут"
+
+msgid "Routes"
+msgstr "Маршруты"
+
+msgid "Sub Ordering"
+msgstr "Под Порядок"
+
+msgid "Distance"
+msgstr "Расстояние"
+
+msgid "Is Important"
+msgstr "Важный"
+
+msgid "Visible"
+msgstr "Виден"
+
+msgid "Sub Route"
+msgstr "Подмаршрут"
+
+msgid "Sub Routes"
+msgstr "Подмаршруты"
+
+msgid "Pickup"
+msgstr "Забор"
+
+msgid "Delivery"
+msgstr "Доставка"
+
+msgid "Planned"
+msgstr "Запланирована"
+
+msgid "On The Way"
+msgstr "В пути"
+
+msgid "Waiting"
+msgstr "Ожидание"
+
+msgid "Missed"
+msgstr "Пропущена"
+
+msgid "Date Shift"
+msgstr "Сдвиг даты"
+
+msgid "A stop might happen on a different date than the trip itself"
+msgstr "Остановка может быть в день отличный от поездки"
+
+msgid "Planned Arrival Time"
+msgstr "Запланированное время прибытия"
+
+msgid "Planned Departure Time"
+msgstr "Запланированное время выезда"
+
+msgid "Estimated Arrival Time"
+msgstr "Приблизительное время прибытия"
+
+msgid "Estimated Departure Time"
+msgstr "Приблизительное время выезда"
+
+msgid "Arrived Time"
+msgstr "Время прибытия"
+
+msgid "Departed Time"
+msgstr "Время выезда"
+
+msgid "Stops"
+msgstr "Остановки"
+
+msgid "Monthly One Way Price"
+msgstr "Месячная цена в одну сторону"
+
+msgid "Monthly One Way Multiple Children Price"
+msgstr "Месячная цена в одну сторону для нескольких детей"
+
+msgid "Monthly Round Trip Price"
+msgstr "Месячная цена в обе стороны"
+
+msgid "Monthly Round Trip Multiple Children Price"
+msgstr "Месячная цена в обе стороны для нескольких детей"
+
+msgid "Annual One Way Price"
+msgstr "Годовая цена в одну сторону"
+
+msgid "Annual One Way Multiple Children Price"
+msgstr "Годовая цена в одну сторону для нескольких детей"
+
+msgid "Annual Round Trip Price"
+msgstr "Годовая цена в обе стороны"
+
+msgid "Annual Round Trip Multiple Children Price"
+msgstr "Годовая цена в обе стороны для нескольких детей"
+
+msgid "Annual One Way Discount Price"
+msgstr "Годовая скидка в одну сторону"
+
+msgid "Annual Round Trip Discount Price"
+msgstr "Годовая скидка в обе стороны"
+
+msgid "Study Start Time"
+msgstr "Время начала обучения"
+
+msgid "Study End Time"
+msgstr "Время окончания обучения"
+
+msgid "Tilda Form URL"
+msgstr "Tilda Form URL"
+
+msgid "Tilda Success URL"
+msgstr "Tilda Success URL"
+
+msgid "Tilda Failure URL"
+msgstr "Tilda Failure URL"
+
+msgid "Places Left"
+msgstr "Оставшиеся места"
+
+msgid "Cluster is from different city!"
+msgstr "Кластер из другого города!"
+
+msgid "End date should be greater than start date."
+msgstr "Дата окончания должна быть позже даты начала."
+
+msgid "Schools"
+msgstr "Школы"
+
+msgid "Home Address"
+msgstr "Домашний адрес"
+
+msgid "First Name"
+msgstr "Имя"
+
+msgid "Last Name"
+msgstr "Фамилия"
+
+msgid "Grade"
+msgstr "Оценка"
+
+msgid "School Schedule"
+msgstr "Школное расписание"
+
+msgid "School Schedules"
+msgstr "Школьные расписания"
+
+msgid "Monthly"
+msgstr "Ежемесячный"
+
+msgid "Annual"
+msgstr "Ежегодный"
+
+msgid "Both"
+msgstr "Оба направления"
+
+msgid "Forward"
+msgstr "Вперед"
+
+msgid "Backward"
+msgstr "Назад"
+
+msgid "Direction"
+msgstr "Направление"
+
+msgid "Child Count"
+msgstr "Количество детей"
+
+msgid "Full Name"
+msgstr "Полное имя"
+
+msgid "School Name"
+msgstr "Имя школы"
+
+msgid "Merged"
+msgstr "Поглощен"
+
+msgid "Old Customer ID"
+msgstr "ID старого клиента"
+
+msgid "School Payment Form"
+msgstr "Форма оплаты за школу"
+
+msgid "School Payment Forms"
+msgstr "Формы оплаты за школу"
+
+msgid "Shift Tariff"
+msgstr "Тариф смены"
+
+msgid "Shift Tariffs"
+msgstr "Тарифы смен"
+
+msgid "Tariff"
+msgstr "Тариф"
+
+msgid "Percentage Left"
+msgstr "Оставшийся процентаж"
+
+msgid "Shift"
+msgstr "Смена"
+
+msgid "Shifts"
+msgstr "Смены"
+
+msgid "Driver Shift"
+msgstr "Сдвиг водителя"
+
+msgid "Driver Shifts"
+msgstr "Сдвиг водителей"
+
+msgid "Next Period Amount"
+msgstr "Сумма следующего периода"
+
+msgid "Paid"
+msgstr "Оплачено"
+
+msgid "Subscriptions"
+msgstr "Подписки"
+
+msgid "Intercom ID"
+msgstr "Intercom ID"
+
+msgid "Survey"
+msgstr "Опрос"
+
+msgid "Surveys"
+msgstr "Опросы"
+
+msgid "Showed At"
+msgstr "Показан в"
+
+msgid "Survey Customer"
+msgstr "Опрос клиента"
+
+msgid "Survey Customers"
+msgstr "Опрос клиентов"
+
+msgid "End date could not be earlier than start date."
+msgstr "Дата окончания должна быть не раньше даты начала."
+
+msgid "There should be no planning lists during time off. "
+msgstr "Запланированный список не должен быть в выходные дни. "
+
+msgid "Time Off"
+msgstr "Выходной день"
+
+msgid "Time Offs"
+msgstr "Выходные дени"
+
+msgid "Paused"
+msgstr "Приостановлено"
+
+msgid "Draft"
+msgstr "Черновик"
+
+msgid "Queued"
+msgstr "В очереди"
+
+msgid "Initial Precise"
+msgstr "Начальный точный"
+
+msgid "Initial Average"
+msgstr "Начальный средний"
+
+msgid "Statistical"
+msgstr "Статистический"
+
+msgid "On-demand"
+msgstr "Одноразовый"
+
+msgid "Delivery Address"
+msgstr "Адрес доставки"
+
+msgid "Pricing Algorithm"
+msgstr "Алгоритм цены"
+
+msgid "Pickup Time"
+msgstr "Время забора"
+
+msgid "Delivery Time"
+msgstr "Время доставки"
+
+msgid "Manual Price"
+msgstr "Ручная цена"
+
+msgid "First Price"
+msgstr "Начальная цена"
+
+msgid "Dynamic Price"
+msgstr "Динамическая цена"
+
+msgid "Is Price Dynamic"
+msgstr "Является ли цена динамичной"
+
+msgid "Is With Subscription"
+msgstr "С подпиской"
+
+msgid "Specify exactly one time: pickup or delivery"
+msgstr "Укажите в точности одно время: забора или доставки"
+
+msgid "Active schedules must have price"
+msgstr "Активные расписания обязаны иметь цену"
+
+msgid "Active schedules must have distance"
+msgstr "Активные расписания обязаны иметь расстояние"
+
+msgid "Pickup and delivery addresses should be different"
+msgstr "Адреса забора и доставки должны отличаться"
+
+msgid "Trip Schedule"
+msgstr "Расписание поездки"
+
+msgid "Schedule"
+msgstr "Расписание"
+
+msgid "Trip Overrides"
+msgstr "Отмены поездок"
+
+msgid "Online"
+msgstr "Онлайн"
+
+msgid "Taxi"
+msgstr "Такси"
+
+msgid "Low Balance"
+msgstr "Низкий баланс"
+
+msgid "Notification"
+msgstr "Уведомление"
+
+msgid "Override"
+msgstr "Отмена"
+
+msgid "No linked bank card"
+msgstr "Нет привязанной карты"
+
+msgid "Unsatisfied Auction"
+msgstr "Неудовлетворенный аукцион"
+
+msgid "Customer Schedule"
+msgstr "Расписание клиента"
+
+msgid "Overrides"
+msgstr "Отмены"
+
+msgid "Excluded Members (Children)"
+msgstr "Исключенные члены (дети)"
+
+msgid "Desired Delivery Time"
+msgstr "Ожидаемое время доставки"
+
+msgid "Payment Type"
+msgstr "Тип платежа"
+
+msgid "Is On Demand"
+msgstr "По требованию"
+
+msgid "A cancellation reason `cancelled_by` should be set for canceled status."
+msgstr "Для статуса отменено должна быть указана причина отмены `cancelled_by`."
+
+msgid "Trips"
+msgstr "Поездки"
+
+msgid "Trip Problem"
+msgstr "Проблема с поездкой"
+
+msgid "Trip Problems"
+msgstr "Проблемы с поездками"
+
+msgid "Changing Trip's customer is not allowed"
+msgstr "Изменение клиента поездки запрещено"
+
+msgid "Invalid IIN."
+msgstr "Неверный ИИН."
+
+msgid "Driver already has a pending payout."
+msgstr "Водитель уже имеет одну выплату в ожидании."
+
+msgid "It's forbidden to hide first sub-route"
+msgstr "Запрещено скрывать первый подмаршрут"
+
+msgid "Changing overrides after creation is not allowed!"
+msgstr "Изменение отмен запрещено!"
+
+msgid "The signature is missing."
+msgstr "Подпись отсутствует."
+
+msgid "The signature is wrong."
+msgstr "Подпись неправильная."
+
+msgid "The token is empty."
+msgstr "Токен пустой."
+
+msgid "The payment is not found."
+msgstr "Платеж не найден."
+
+msgid "The amount value mismatch."
+msgstr "Несоответствие значения суммы."
+
+msgid "Used Count"
+msgstr "Использованное количество"
+
+msgid "Not Used"
+msgstr "Не использовано"
+
+msgid "Used"
+msgstr "Использовано"
+
+msgid "Used Promo Сodes"
+msgstr "Использованные промокоды"
+
+msgid "Loyalty"
+msgstr "Лояльность"
+
+msgid "Leaving this field empty will generate a random code."
+msgstr "Если оставить это поле пустым, будет сгенерирован случайный код."
+
+msgid "Sharing Bonus Amount"
+msgstr "Сумма бонуса для поделившегося"
+
+msgid "The bonus amount is for the one who shared the promo code."
+msgstr "Сумма бонуса предназначена для того, кто поделился промо-кодом."
+
+msgid "Activating Bonus Amount"
+msgstr "Сумма бонуса для активировавшего"
+
+msgid "The bonus amount is for the one who activated the promo code."
+msgstr "Сумма бонуса предназначена для того, кто активировал промо-код."
+
+msgid "Campaign"
+msgstr "Кампания"
+
+msgid "Invite Count"
+msgstr "Кол-во приглашений"
+
+msgid "Created at"
+msgstr "Создано в"
+
+msgid "Promo code"
+msgstr "Промокод"
+
+msgid "Promo codes"
+msgstr "Промокоды"
+
+msgid "Owned Promo Code"
+msgstr "Собственный промокод"
+
+msgid "Used Promo Codes"
+msgstr "Использованные промокоды"
+
+msgid "Lead User Got Promo Code At"
+msgstr "Ведущий пользователь получил промокод в"
+
+msgid "Canceled Payment"
+msgstr "Отмененный Платеж"
+
+msgid "Payment has been canceled. \n"
+msgstr "Платеж был отменен. \n"
+
+msgid "You will be redirected to the main page soon."
+msgstr "Скоро вы будете перенаправлены на главную страницу."
+
+msgid "Successful Payment"
+msgstr "Успешный платеж"
+
+msgid "Payment has successfully proceeded"
+msgstr "Оплата успешно произведена"
+
+msgid "Unsuccessful Payment"
+msgstr "Неуспешный платеж"
+
+msgid "Payment has not proceeded"
+msgstr "Оплата не была произведена"
+
+msgid "UUID"
+msgstr "UUID"
+
+msgid "Scanned Count"
+msgstr "Количество сканирований"
+
+msgid "QRCodes"
+msgstr "QR Коды"
+
+msgid "Routing"
+msgstr "Маршрутизация"
+
+msgid "Template"
+msgstr "Шаблон"
+
+msgid "VRP"
+msgstr "VRP"
+
+msgid "Verifying Clusters"
+msgstr "Проверка кластеров"
+
+msgid "Verified Clusters"
+msgstr "Кластеры проверены"
+
+msgid "Running"
+msgstr "Текущий"
+
+msgid "Input Type"
+msgstr "Тип вводимых данных"
+
+msgid "Solver"
+msgstr "Solver"
+
+msgid "With Clustering"
+msgstr "Использовать кластеризацию"
+
+msgid "DBSCAN epsilon (in meters)"
+msgstr "DBSCAN epsilon (в метрах)"
+
+msgid "Clustering Map"
+msgstr "Карта кластеризации"
+
+msgid "Clustering Table"
+msgstr "Таблица кластеризации"
+
+msgid "Locations"
+msgstr "Локации"
+
+msgid "Problem"
+msgstr "Задача"
+
+msgid "Matrix"
+msgstr "Матрица"
+
+msgid "Solution"
+msgstr "Решение"
+
+msgid "Config"
+msgstr "Конфигурация"
+
+msgid "Logs"
+msgstr "Логи"
+
+msgid "Max Time Seconds"
+msgstr "Количество секунд"
+
+msgid "Max Generations"
+msgstr "Количество генераций"
+
+msgid "Pickup Service Duration"
+msgstr "Длительность забора"
+
+msgid "Delivery Service"
+msgstr "Длительность доставки"
+
+msgid "ORS Speed Scale"
+msgstr "Множитель скорости ORS"
+
+msgid "Pessimistic Speed km/h"
+msgstr "Пессимистичная скорость км/ч"
+
+msgid "Time Window Lower Bound Minutes"
+msgstr "Нижняя граница временного окна в минутах"
+
+msgid "Time Window Upper Bound Minutes"
+msgstr "Верхняя граница временного окна в минутах"
+
+msgid "Initial Solutions"
+msgstr "Количество начальных решений"
+
+msgid "Num Thread Pools"
+msgstr "Количество пулов потоков"
+
+msgid "Num Threads"
+msgstr "Количество потоков"
+
+msgid "Solution Template"
+msgstr "Экспортировать решение в виде Яндекс шаблона"
+
+msgid "Solution Map"
+msgstr "Карта решения"
+
+msgid "Routing Task"
+msgstr "Routing Task"
+
+msgid "Routing Tasks"
+msgstr "Routing Tasks"
+
+msgid "Minimize Cost"
+msgstr "Минимизация стоимости"
+
+msgid "Minimize Distance"
+msgstr "Минимизация дистанции"
+
+msgid "Minimize Duration"
+msgstr "Минимизация длительности"
+
+msgid "Minimize Unassigned"
+msgstr "Минимизация неназначенных"
+
+msgid "Minimize Tours"
+msgstr "Минимизация туров"
+
+msgid "Minimize Arrival Time"
+msgstr "Минимизация времени прибытия"
+
+msgid "Task"
+msgstr "Задача"
+
+msgid "Objective"
+msgstr "Цель"
+
+msgid "Priority"
+msgstr "Приоритет"
+
+msgid "Routing Task Objective"
+msgstr "Routing Task Objective"
+
+msgid "Routing Task Objectives"
+msgstr "Routing Task Objectives"
+
+msgid "Complete Selected Tasks"
+msgstr "Завершить выделенные задачи"
+
+msgid "Tasks"
+msgstr "Задачи"
+
+msgid "Cancel trip"
+msgstr "Отмена поездки"
+
+msgid "Delay trip"
+msgstr "Задержка поездки"
+
+msgid "Inactive driver"
+msgstr "Неактивный водитель"
+
+msgid "Draft schedule"
+msgstr "Черновое расписание"
+
+msgid "Schedule with discount"
+msgstr "Расписание со скидкой"
+
+msgid "Bad Review"
+msgstr "Плохой отзыв"
+
+msgid "Review With Comment"
+msgstr "Отзыв с комментарием"
+
+msgid "Contact a driver after first route"
+msgstr "Связаться с водителем после первого маршрута"
+
+msgid "Inactive Customer"
+msgstr "Неактивный пользователь"
+
+msgid "New Trip Schedule"
+msgstr "Новое расписание поездки"
+
+msgid "New On Demand Trip"
+msgstr "Новая поездка по требованию"
+
+msgid "Cancelled On Demand Trip"
+msgstr "Отмененная поездка по требованию"
+
+msgid "New Auction"
+msgstr "Новый аукцион"
+
+msgid "Driver Lateness"
+msgstr "Опоздание водителя"
+
+msgid "Applied to Auction"
+msgstr "Подался на аукцион"
+
+msgid "Is Completed"
+msgstr "Выполнена"
+
+msgid "Completed At"
+msgstr "Выполнена в"
+
+msgid "Is Urgent"
+msgstr "Важный"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Telegram Text"
+msgstr "Текст Telegram"
+
+msgid "Deadline"
+msgstr "Крайний срок выполнения"
+
+msgid "content type"
+msgstr "Тип содержимого"
+
+msgid "object id"
+msgstr "id объекта"
+
+msgid "Group id"
+msgstr "ID группы"
+
+msgid "Telegram Group"
+msgstr "Telegram группа"
+
+msgid "Telegram Groups"
+msgstr "Telegram группы"
+
+msgid "Add Routes"
+msgstr "Добавить маршруты"
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Add Routes From Sub-Routes"
+msgstr "Добавить маршруты из под-маршрутов"
+
+msgid "Import Manual Routing Spreadsheet"
+msgstr "Импортировать таблицу данных ручной маршрутизации"
+
+msgid "Import Automatic Routing Spreadsheet"
+msgstr "Импортировать таблицу данных автоматической маршрутизации"
+
+msgid "Upload Spreadsheet"
+msgstr "Загрузить таблицу"
+
+msgid "Do you really want to"
+msgstr "Вы действительно хотите"
+
+msgid "Generate a password"
+msgstr "Сгенерировать пароль"
+
+msgid "Cancel"
+msgstr "Отменить"
+
+msgid "Welcome to UvU"
+msgstr "Добро пожаловать в UvU"
+
+msgid "Please enter the following confirmation code into the app"
+msgstr "Пожалуйста, введите активационный код в приложение"
+
+msgid "Kind Regards, UvU Team"
+msgstr "С Уважением, команда UvU"
+
+msgid "Go manually"
+msgstr "Перейти вручную"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Some of the drivers are from a different city or their ids don't exist"
+msgstr "Некоторые водители из другого города или их id не существуют"
+
+msgid "Trip ids are not unique"
+msgstr "Id поездок не уникальны"
+
+msgid "Some of the trips are from a different city or their ids don't exist"
+msgstr "Некоторые поездки из другого города или их id не существуют"
+
+msgid "Driver city and given city are different."
+msgstr "Город водителя и предоставленный город отличны."
+
+#, python-brace-format
+msgid "Date mismatch, route: {route.date}, sub-route: {self.instance.date}"
+msgstr "Несоответствие даты, маршрут: {route.date}, под-маршрут: {self.instance.date}"
+
+#, python-brace-format
+msgid "City mismatch, route: {route.city}, sub-route: {self.instance.city}"
+msgstr "Несоответствие города, маршрут: {route.city}, под-маршрут: {self.instance.city}"
+
+msgid "WebSocket App"
+msgstr "WebSocket Приложение"
+
+msgid "Attendees"
+msgstr "Участники"
+
+msgid "Date time"
+msgstr "Время"
+
+msgid "Age limit"
+msgstr "Ограничение возраста"
+
+msgid "Owner"
+msgstr "Владелец"
+
+msgid "Interests"
+msgstr "Интересы"
+
+msgid "Image"
+msgstr "Картинка"
+
+msgid "Event"
+msgstr "Ивент"
+
+msgid "Поездка не найдена"
+msgstr "Trip not found"
+
+#, python-brace-format
+msgid "У водителя {trip.driver} не подключен traccar tracking"
+msgstr "Driver {trip.driver} is not connected to traccar tracking"
+
+msgid "Поездка завершена"
+msgstr "Trip completed"
+
+msgid "Не назначен traccar админ города"
+msgstr "Cities traccar admin is not set"
