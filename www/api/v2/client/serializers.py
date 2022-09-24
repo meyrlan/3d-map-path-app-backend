@@ -93,6 +93,10 @@ class DataSetSerializer(serializers.ModelSerializer):
         ]
 
 
+class InterpolatedDataSetSerializer(serializers.ModelSerializer):
+    data_instances = DataInstanceSerializer(many=True)
+
+
 class ShortDataSetSerializer(serializers.ModelSerializer):
     class Meta:
         model = DataSet

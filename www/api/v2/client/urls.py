@@ -7,7 +7,8 @@ from api.v2.client.views import (
     EventsAPIView,
     ListEventsAPIView,
     DataSetAPIView,
-    ListDataSetsAPIView
+    ListDataSetsAPIView,
+    InterpolatedDataSetAPIView
 )
 
 router = routers.SimpleRouter(trailing_slash=False)
@@ -19,5 +20,6 @@ urlpatterns = [
     path('dataset/<int:pk>', DataSetAPIView.as_view(), name='get_dataset'),
     path("datasets", ListDataSetsAPIView.as_view(), name="datasets"),
     path('token', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('token/refresh', TokenRefreshView.as_view(), name='token_refresh')
+    path('token/refresh', TokenRefreshView.as_view(), name='token_refresh'),
+    path('interpolated_dataset/<int:pk>', InterpolatedDataSetAPIView.as_view(), name='interpolated_dataset')
 ] + router.urls
