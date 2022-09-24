@@ -1,7 +1,8 @@
-from rest_framework.generics import RetrieveUpdateAPIView, RetrieveAPIView, ListAPIView
+from rest_framework.generics import RetrieveUpdateAPIView, RetrieveAPIView, ListAPIView, CreateAPIView
 from rest_framework.permissions import AllowAny
-from api.v2.client.serializers import ProfileSerializer, EventSerializer, ShortDataSetSerializer, DataSetSerializer
+from api.v2.client.serializers import ProfileSerializer, EventSerializer, ShortDataSetSerializer, DataSetSerializer, ExcelDataSerializer
 from core.models import Profile, Event, DataSet
+from rest_framework.response import Response
 
 
 # --- Views ---
@@ -39,3 +40,16 @@ class DataSetAPIView(RetrieveAPIView):
     queryset = DataSet.objects.all()
     serializer_class = DataSetSerializer
     permission_classes = [AllowAny]
+
+
+class ExcelUploadAPIView(CreateAPIView):
+    http_method_names = ["post"]
+    queryset = DataSet.objects.all()
+    serializer_class = ExcelDataSerializer
+    permission_classes = [AllowAny]
+
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        print(serializer.data)
+        return Response(serializer.data)

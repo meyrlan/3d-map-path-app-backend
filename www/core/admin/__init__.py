@@ -1,1 +1,2 @@
-from core.admin.models import *
+from .models import *
+from .forms import *

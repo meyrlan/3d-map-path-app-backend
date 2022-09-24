@@ -7,3 +7,6 @@ class CoreConfig(AppConfig):
     name = "core"
     label = "core"
     verbose_name = _("Core")
+
+    def ready(self):
+        import core.signals

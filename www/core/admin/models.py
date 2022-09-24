@@ -1,5 +1,6 @@
 from django.contrib import admin
-from core.models import Profile, Interest, Event, Image, User, DataSet
+from core.models import Profile, Interest, Event, Image, User, DataSet, DataInstance, Excel
+from .forms import ExcelForm
 from django.utils.translation import ugettext_lazy as _
 from rest_framework.reverse import reverse
 from django.utils.html import format_html
@@ -15,6 +16,58 @@ class UserModelAdmin(admin.ModelAdmin):
     fields = [
         "email",
         "phone",
+    ]
+
+
+@admin.register(DataSet)
+class DataSetModelAdmin(admin.ModelAdmin):
+    list_display = (
+        'identifier',
+    )
+    fields = [
+        'identifier',
+    ]
+
+
+@admin.register(DataInstance)
+class DataInstanceModelAdmin(admin.ModelAdmin):
+    list_display = (
+        'lat',
+        'lng',
+        'alt',
+        'identifier',
+        'timestamp',
+        'floor',
+        'horizontal_accuracy',
+        'vertical_accuracy',
+        'confidence',
+        'activity',
+        'data_set',
+    )
+    list_filter = ['data_set__id']
+    fields = [
+        'lat',
+        'lng',
+        'alt',
+        'identifier',
+        'timestamp',
+        'floor',
+        'horizontal_accuracy',
+        'vertical_accuracy',
+        'confidence',
+        'activity',
+        'data_set',
+    ]
+
+
+@admin.register(Excel)
+class ExcelModelAdmin(admin.ModelAdmin):
+    form = ExcelForm
+    list_display = (
+        "data",
+    )
+    fields = [
+        "data",
     ]
 
 

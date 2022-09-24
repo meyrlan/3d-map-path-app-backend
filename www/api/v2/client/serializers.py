@@ -84,12 +84,12 @@ class DataInstanceSerializer(serializers.ModelSerializer):
 
 
 class DataSetSerializer(serializers.ModelSerializer):
-    data_set = DataInstanceSerializer()
-
+    data_instances = DataInstanceSerializer(many=True)
     class Meta:
         model = DataSet
         fields = [
             "identifier",
+            "data_instances",
         ]
 
 
@@ -97,5 +97,10 @@ class ShortDataSetSerializer(serializers.ModelSerializer):
     class Meta:
         model = DataSet
         fields = [
+            "id",
             "identifier",
         ]
+
+
+class ExcelDataSerializer(serializers.Serializer):
+    data = serializers.FileField()

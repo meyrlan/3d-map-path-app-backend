@@ -5,3 +5,4 @@ from core.models.image import Image
 from core.models.user import User
 from core.models.data_instance import DataInstance
 from core.models.data_set import DataSet
+from core.models.excel import Excel
