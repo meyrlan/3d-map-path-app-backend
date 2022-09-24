@@ -22,7 +22,6 @@ def after_creation(sender, instance: Excel, created, **kwargs):
             if identifier not in identifier_dataset:
                 identifier_dataset[identifier] = DataSet.objects.create(identifier=identifier)
             dataset = identifier_dataset[identifier]
-            print(type(Decimal(row[0])))
             DataInstance.objects.create(
                 lat=Decimal(row[0]),
                 lng=Decimal(row[1]), alt=Decimal(row[2]), identifier=row[3], timestamp=int(row[4]),
