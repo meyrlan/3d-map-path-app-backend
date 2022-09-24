@@ -40,16 +40,3 @@ class DataSetAPIView(RetrieveAPIView):
     queryset = DataSet.objects.all()
     serializer_class = DataSetSerializer
     permission_classes = [AllowAny]
-
-
-class ExcelUploadAPIView(CreateAPIView):
-    http_method_names = ["post"]
-    queryset = DataSet.objects.all()
-    serializer_class = ExcelDataSerializer
-    permission_classes = [AllowAny]
-
-    def create(self, request, *args, **kwargs):
-        serializer = self.get_serializer(data=request.data)
-        serializer.is_valid(raise_exception=True)
-        print(serializer.data)
-        return Response(serializer.data)

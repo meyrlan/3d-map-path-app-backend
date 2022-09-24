@@ -7,8 +7,7 @@ from api.v2.client.views import (
     EventsAPIView,
     ListEventsAPIView,
     DataSetAPIView,
-    ListDataSetsAPIView,
-    ExcelUploadAPIView
+    ListDataSetsAPIView
 )
 
 router = routers.SimpleRouter(trailing_slash=False)
@@ -20,6 +19,5 @@ urlpatterns = [
     path('dataset/<int:pk>', DataSetAPIView.as_view(), name='get_dataset'),
     path("datasets", ListDataSetsAPIView.as_view(), name="datasets"),
     path('token', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('token/refresh', TokenRefreshView.as_view(), name='token_refresh'),
-    path('excel', ExcelUploadAPIView.as_view(), name='excel_upload')
+    path('token/refresh', TokenRefreshView.as_view(), name='token_refresh')
 ] + router.urls

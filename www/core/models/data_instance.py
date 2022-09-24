@@ -19,7 +19,7 @@ class DataInstance(models.Model):
     horizontal_accuracy = models.DecimalField(_("Horizontal Accuracy"), max_digits=20, decimal_places=15)
     vertical_accuracy = models.DecimalField(_("Vertical Accuracy"), max_digits=20, decimal_places=15)
     confidence = models.DecimalField(_("Confidence"), max_digits=20, decimal_places=15)
-    activity = models.CharField(_("Activity"), choices=ACTIVITY.choices, default=ACTIVITY.UNKNOWN, max_length=10)
+    activity = models.CharField(_("Activity"), default="UNKNOWN", max_length=10)
     data_set = models.ForeignKey(
         "core.DataSet",
         verbose_name=_("DataSet"),
