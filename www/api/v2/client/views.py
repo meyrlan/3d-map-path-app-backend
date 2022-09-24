@@ -72,7 +72,8 @@ class InterpolatedDataSetAPIView(RetrieveAPIView):
                         'activity': 'driving',
                     })
                 interpolate = []
-            data['data_instances'].append(DataInstanceSerializer(instance).data)
+            if instance.activity != 'driving':
+                data['data_instances'].append(DataInstanceSerializer(instance).data)
         if len(interpolate) != 0:
             interpolated_points = interpolate_road_points('|'.join(interpolate))
             for point in interpolated_points:
