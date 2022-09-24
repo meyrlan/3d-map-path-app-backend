@@ -54,7 +54,7 @@ class InterpolatedDataSetAPIView(RetrieveAPIView):
         data = {'identifier': queryset.identifier, 'data_instances': []}
         interpolate = []
         for instance in queryset.data_instances.all():
-            if instance.activity == 'driving':
+            if instance.activity != '123':
                 interpolate.append(f'{instance.lat},{instance.lng}')
             elif len(interpolate) != 0:
                 interpolated_points = interpolate_road_points('|'.join(interpolate))
@@ -72,7 +72,7 @@ class InterpolatedDataSetAPIView(RetrieveAPIView):
                         'activity': 'driving',
                     })
                 interpolate = []
-            if instance.activity != 'driving':
+            if instance.activity == '123':
                 data['data_instances'].append(DataInstanceSerializer(instance).data)
         if len(interpolate) != 0:
             interpolated_points = interpolate_road_points('|'.join(interpolate))
