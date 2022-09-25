@@ -3,6 +3,7 @@
 ### Generic Info:
 * The app is dedicated to visualize historical data, which is parsed from input Excel file.
 * Useful for people to track their paths and services to locate a target.
+* Demonstration of the app: [Video link](https://drive.google.com/file/d/1wlTeC7tHH44Bf_GIy4AroO4qx5PucNUU/view?usp=sharing)
 
 ### Technical Info:
 * Backend - Django (Python)
