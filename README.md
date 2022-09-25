@@ -1,4 +1,4 @@
-# Hacknu 3D App Django Backend
+# Hacknu 3D Map App Django Backend
 
 ### Generic Info:
 * The app is dedicated to visualize historical data, which is parsed from input Excel file.
