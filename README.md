@@ -32,3 +32,5 @@ $ python manage.py migrate
 ```bash
 $ python manage.py runserver
 ```
+
+![image](https://user-images.githubusercontent.com/45965276/192124610-ed15ceb0-893b-4630-a885-5b05d6fa4cc0.png)
