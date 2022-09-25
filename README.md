@@ -10,3 +10,15 @@ $ poetry install
 $ poetry shell
 ```
 
+3. Migrations - go to www folder and: 
+
+```bash
+$ python manage.py makemigrations
+$ python manage.py migrate
+```
+
+4. Run server:
+
+```bash
+$ python manage.py runserver
+```
