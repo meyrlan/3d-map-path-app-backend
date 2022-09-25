@@ -5,8 +5,8 @@
 * Useful for people to track their paths and services to locate a target.
 
 ### Technical Info:
-* Backend - Django
-* Frontend - ThreeJS, HTML, CSS, JavaScript
+* Backend - Django (Python)
+* [Frontend](https://github.com/meyrlan/hacknu-2022-frontend) - ThreeJS (JavaScript), HTML, CSS, Bootstrap
 * Algorithms - Path Interpolation Algorithm
 
 ### Quick Start
